@@ -1,0 +1,1 @@
+docker run -it --rm --name ui --publish=8080:8080 -v "$PWD"/ui:/usr/src/app -w /usr/src/app node:16.6.2-buster npm start
